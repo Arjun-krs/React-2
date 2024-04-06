@@ -1,0 +1,27 @@
+$myFontSize: 50px;
+$myWidth: 550px;
+$myFontWeight: 500;
+$myPrimary_clr: lightskyblue;
+.main-context-align{
+    margin-top: 150px;
+    
+}
+.main-context {
+  h3 {
+    font-size: $myFontSize;
+    width: $myWidth;
+    font-weight: $myFontWeight;
+    color: $myPrimary_clr;
+  }
+  p {
+    $myPrimary_clr: black;
+    Width: 500px;
+  }
+}
+
+.select-btn{
+    display: flex;
+    gap: 30px;
+}
+
+

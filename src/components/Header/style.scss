@@ -1,0 +1,28 @@
+$myPrimary_clr: black;
+$mySecondary_clr: skyblue;
+$myFontSize: 20px;
+$myFontWeight: 500;
+
+@mixin text {
+  text-decoration: none;
+  color: $myPrimary_clr;
+  font-size: $myFontSize;
+  font-weight: $myFontWeight;
+
+}
+.Navigation-tool {
+
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+  }
+  a {
+    @include text;
+  }
+  h1 {
+    color: $mySecondary_clr;
+    $myFontSize: 40px;
+    $myFontWeight: 700;
+  }
+}
